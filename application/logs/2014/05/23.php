@@ -1,0 +1,206 @@
+<?php defined('SYSPATH') OR die('No direct script access.'); ?>
+
+2014-05-23 14:03:37 --- CRITICAL: ErrorException [ 1 ]: Call to undefined function getPartitoAttivo() ~ APPPATH\classes\Controller\Classifiche.php [ 13 ] in file:line
+2014-05-23 14:03:37 --- DEBUG: #0 [internal function]: Kohana_Core::shutdown_handler()
+#1 {main} in file:line
+2014-05-23 14:06:30 --- CRITICAL: ErrorException [ 1 ]: Call to undefined function getPartitoAttivo() ~ APPPATH\classes\Controller\Classifiche.php [ 13 ] in file:line
+2014-05-23 14:06:30 --- DEBUG: #0 [internal function]: Kohana_Core::shutdown_handler()
+#1 {main} in file:line
+2014-05-23 14:07:03 --- CRITICAL: ErrorException [ 2 ]: include() [function.include]: Filename cannot be empty ~ APPPATH\views\login.php [ 60 ] in G:\workspace\fantaparlamento\mainsite\application\views\login.php:60
+2014-05-23 14:07:03 --- DEBUG: #0 G:\workspace\fantaparlamento\mainsite\application\views\login.php(60): Kohana_Core::error_handler(2, 'include() [<a h...', 'G:\workspace\fa...', 60, Array)
+#1 G:\workspace\fantaparlamento\mainsite\application\views\login.php(60): include()
+#2 G:\workspace\fantaparlamento\mainsite\system\classes\Kohana\View.php(61): include('G:\workspace\fa...')
+#3 G:\workspace\fantaparlamento\mainsite\system\classes\Kohana\View.php(348): Kohana_View::capture('G:\workspace\fa...', Array)
+#4 G:\workspace\fantaparlamento\mainsite\system\classes\Kohana\Controller\Template.php(44): Kohana_View->render()
+#5 G:\workspace\fantaparlamento\mainsite\system\classes\Kohana\Controller.php(87): Kohana_Controller_Template->after()
+#6 [internal function]: Kohana_Controller->execute()
+#7 G:\workspace\fantaparlamento\mainsite\system\classes\Kohana\Request\Client\Internal.php(97): ReflectionMethod->invoke(Object(Controller_Login))
+#8 G:\workspace\fantaparlamento\mainsite\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#9 G:\workspace\fantaparlamento\mainsite\system\classes\Kohana\Request.php(986): Kohana_Request_Client->execute(Object(Request))
+#10 G:\workspace\fantaparlamento\mainsite\index.php(118): Kohana_Request->execute()
+#11 {main} in G:\workspace\fantaparlamento\mainsite\application\views\login.php:60
+2014-05-23 14:07:50 --- CRITICAL: ErrorException [ 2 ]: include() [function.include]: Filename cannot be empty ~ APPPATH\views\login.php [ 60 ] in G:\workspace\fantaparlamento\mainsite\application\views\login.php:60
+2014-05-23 14:07:50 --- DEBUG: #0 G:\workspace\fantaparlamento\mainsite\application\views\login.php(60): Kohana_Core::error_handler(2, 'include() [<a h...', 'G:\workspace\fa...', 60, Array)
+#1 G:\workspace\fantaparlamento\mainsite\application\views\login.php(60): include()
+#2 G:\workspace\fantaparlamento\mainsite\system\classes\Kohana\View.php(61): include('G:\workspace\fa...')
+#3 G:\workspace\fantaparlamento\mainsite\system\classes\Kohana\View.php(348): Kohana_View::capture('G:\workspace\fa...', Array)
+#4 G:\workspace\fantaparlamento\mainsite\system\classes\Kohana\Controller\Template.php(44): Kohana_View->render()
+#5 G:\workspace\fantaparlamento\mainsite\system\classes\Kohana\Controller.php(87): Kohana_Controller_Template->after()
+#6 [internal function]: Kohana_Controller->execute()
+#7 G:\workspace\fantaparlamento\mainsite\system\classes\Kohana\Request\Client\Internal.php(97): ReflectionMethod->invoke(Object(Controller_Login))
+#8 G:\workspace\fantaparlamento\mainsite\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#9 G:\workspace\fantaparlamento\mainsite\system\classes\Kohana\Request.php(986): Kohana_Request_Client->execute(Object(Request))
+#10 G:\workspace\fantaparlamento\mainsite\index.php(118): Kohana_Request->execute()
+#11 {main} in G:\workspace\fantaparlamento\mainsite\application\views\login.php:60
+2014-05-23 14:08:23 --- CRITICAL: ErrorException [ 8 ]: Undefined variable: deputati ~ APPPATH\views\_table_deputati.php [ 17 ] in G:\workspace\fantaparlamento\mainsite\application\views\_table_deputati.php:17
+2014-05-23 14:08:23 --- DEBUG: #0 G:\workspace\fantaparlamento\mainsite\application\views\_table_deputati.php(17): Kohana_Core::error_handler(8, 'Undefined varia...', 'G:\workspace\fa...', 17, Array)
+#1 G:\workspace\fantaparlamento\mainsite\application\views\login.php(60): include('G:\workspace\fa...')
+#2 G:\workspace\fantaparlamento\mainsite\system\classes\Kohana\View.php(61): include('G:\workspace\fa...')
+#3 G:\workspace\fantaparlamento\mainsite\system\classes\Kohana\View.php(348): Kohana_View::capture('G:\workspace\fa...', Array)
+#4 G:\workspace\fantaparlamento\mainsite\system\classes\Kohana\Controller\Template.php(44): Kohana_View->render()
+#5 G:\workspace\fantaparlamento\mainsite\system\classes\Kohana\Controller.php(87): Kohana_Controller_Template->after()
+#6 [internal function]: Kohana_Controller->execute()
+#7 G:\workspace\fantaparlamento\mainsite\system\classes\Kohana\Request\Client\Internal.php(97): ReflectionMethod->invoke(Object(Controller_Login))
+#8 G:\workspace\fantaparlamento\mainsite\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#9 G:\workspace\fantaparlamento\mainsite\system\classes\Kohana\Request.php(986): Kohana_Request_Client->execute(Object(Request))
+#10 G:\workspace\fantaparlamento\mainsite\index.php(118): Kohana_Request->execute()
+#11 {main} in G:\workspace\fantaparlamento\mainsite\application\views\_table_deputati.php:17
+2014-05-23 14:09:57 --- CRITICAL: ErrorException [ 8 ]: Undefined variable: hattivita ~ APPPATH\views\classifiche.php [ 68 ] in G:\workspace\fantaparlamento\mainsite\application\views\classifiche.php:68
+2014-05-23 14:09:57 --- DEBUG: #0 G:\workspace\fantaparlamento\mainsite\application\views\classifiche.php(68): Kohana_Core::error_handler(8, 'Undefined varia...', 'G:\workspace\fa...', 68, Array)
+#1 G:\workspace\fantaparlamento\mainsite\system\classes\Kohana\View.php(61): include('G:\workspace\fa...')
+#2 G:\workspace\fantaparlamento\mainsite\system\classes\Kohana\View.php(348): Kohana_View::capture('G:\workspace\fa...', Array)
+#3 G:\workspace\fantaparlamento\mainsite\system\classes\Kohana\Controller\Template.php(44): Kohana_View->render()
+#4 G:\workspace\fantaparlamento\mainsite\system\classes\Kohana\Controller.php(87): Kohana_Controller_Template->after()
+#5 [internal function]: Kohana_Controller->execute()
+#6 G:\workspace\fantaparlamento\mainsite\system\classes\Kohana\Request\Client\Internal.php(97): ReflectionMethod->invoke(Object(Controller_Classifiche))
+#7 G:\workspace\fantaparlamento\mainsite\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#8 G:\workspace\fantaparlamento\mainsite\system\classes\Kohana\Request.php(986): Kohana_Request_Client->execute(Object(Request))
+#9 G:\workspace\fantaparlamento\mainsite\index.php(118): Kohana_Request->execute()
+#10 {main} in G:\workspace\fantaparlamento\mainsite\application\views\classifiche.php:68
+2014-05-23 14:12:08 --- CRITICAL: ErrorException [ 8 ]: Undefined variable: hattivita ~ APPPATH\views\classifiche.php [ 68 ] in G:\workspace\fantaparlamento\mainsite\application\views\classifiche.php:68
+2014-05-23 14:12:08 --- DEBUG: #0 G:\workspace\fantaparlamento\mainsite\application\views\classifiche.php(68): Kohana_Core::error_handler(8, 'Undefined varia...', 'G:\workspace\fa...', 68, Array)
+#1 G:\workspace\fantaparlamento\mainsite\system\classes\Kohana\View.php(61): include('G:\workspace\fa...')
+#2 G:\workspace\fantaparlamento\mainsite\system\classes\Kohana\View.php(348): Kohana_View::capture('G:\workspace\fa...', Array)
+#3 G:\workspace\fantaparlamento\mainsite\system\classes\Kohana\Controller\Template.php(44): Kohana_View->render()
+#4 G:\workspace\fantaparlamento\mainsite\system\classes\Kohana\Controller.php(87): Kohana_Controller_Template->after()
+#5 [internal function]: Kohana_Controller->execute()
+#6 G:\workspace\fantaparlamento\mainsite\system\classes\Kohana\Request\Client\Internal.php(97): ReflectionMethod->invoke(Object(Controller_Classifiche))
+#7 G:\workspace\fantaparlamento\mainsite\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#8 G:\workspace\fantaparlamento\mainsite\system\classes\Kohana\Request.php(986): Kohana_Request_Client->execute(Object(Request))
+#9 G:\workspace\fantaparlamento\mainsite\index.php(118): Kohana_Request->execute()
+#10 {main} in G:\workspace\fantaparlamento\mainsite\application\views\classifiche.php:68
+2014-05-23 18:17:28 --- EMERGENCY: Database_Exception [ 2 ]: mysql_connect() [function.mysql-connect]: Access denied for user 'root'@'localhost' (using password: NO) ~ MODPATH/database/classes/Kohana/Database/MySQL.php [ 67 ] in /Volumes/DATA32/workspace/fantaparlamento/mainsite/modules/database/classes/Kohana/Database/MySQL.php:171
+2014-05-23 18:17:28 --- DEBUG: #0 /Volumes/DATA32/workspace/fantaparlamento/mainsite/modules/database/classes/Kohana/Database/MySQL.php(171): Kohana_Database_MySQL->connect()
+#1 /Volumes/DATA32/workspace/fantaparlamento/mainsite/modules/database/classes/Kohana/Database/MySQL.php(359): Kohana_Database_MySQL->query(1, 'SHOW FULL COLUM...', false)
+#2 /Volumes/DATA32/workspace/fantaparlamento/mainsite/modules/orm/classes/Kohana/ORM.php(1668): Kohana_Database_MySQL->list_columns('fanta_partito')
+#3 /Volumes/DATA32/workspace/fantaparlamento/mainsite/modules/orm/classes/Kohana/ORM.php(444): Kohana_ORM->list_columns()
+#4 /Volumes/DATA32/workspace/fantaparlamento/mainsite/modules/orm/classes/Kohana/ORM.php(389): Kohana_ORM->reload_columns()
+#5 /Volumes/DATA32/workspace/fantaparlamento/mainsite/modules/orm/classes/Kohana/ORM.php(254): Kohana_ORM->_initialize()
+#6 /Volumes/DATA32/workspace/fantaparlamento/mainsite/application/classes/Utils/ORMDB/FantaBusinessReadFacadeImpl.php(19): Kohana_ORM->__construct()
+#7 /Volumes/DATA32/workspace/fantaparlamento/mainsite/application/classes/Controller/Classifiche.php(10): Utils_ORMDB_FantaBusinessReadFacadeImpl->selezionaFantaPartiti(NULL)
+#8 /Volumes/DATA32/workspace/fantaparlamento/mainsite/system/classes/Kohana/Controller.php(84): Controller_Classifiche->action_index()
+#9 [internal function]: Kohana_Controller->execute()
+#10 /Volumes/DATA32/workspace/fantaparlamento/mainsite/system/classes/Kohana/Request/Client/Internal.php(97): ReflectionMethod->invoke(Object(Controller_Login))
+#11 /Volumes/DATA32/workspace/fantaparlamento/mainsite/system/classes/Kohana/Request/Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#12 /Volumes/DATA32/workspace/fantaparlamento/mainsite/system/classes/Kohana/Request.php(986): Kohana_Request_Client->execute(Object(Request))
+#13 /Volumes/DATA32/workspace/fantaparlamento/mainsite/index.php(118): Kohana_Request->execute()
+#14 {main} in /Volumes/DATA32/workspace/fantaparlamento/mainsite/modules/database/classes/Kohana/Database/MySQL.php:171
+2014-05-23 19:06:15 --- EMERGENCY: ErrorException [ 1 ]: Call to undefined function parent() ~ APPPATH/classes/Controller/Classifiche.php [ 12 ] in file:line
+2014-05-23 19:06:15 --- DEBUG: #0 [internal function]: Kohana_Core::shutdown_handler()
+#1 {main} in file:line
+2014-05-23 19:07:30 --- EMERGENCY: ErrorException [ 1 ]: Call to a member function selezionaFantaPartiti() on a non-object ~ APPPATH/classes/Controller/Classifiche.php [ 19 ] in file:line
+2014-05-23 19:07:30 --- DEBUG: #0 [internal function]: Kohana_Core::shutdown_handler()
+#1 {main} in file:line
+2014-05-23 19:07:48 --- EMERGENCY: ErrorException [ 8 ]: Undefined index: partito_selezionato ~ APPPATH/classes/Controller/Classifiche.php [ 31 ] in /Volumes/DATA32/workspace/fantaparlamento/mainsite/application/classes/Controller/Classifiche.php:31
+2014-05-23 19:07:48 --- DEBUG: #0 /Volumes/DATA32/workspace/fantaparlamento/mainsite/application/classes/Controller/Classifiche.php(31): Kohana_Core::error_handler(8, 'Undefined index...', '/Volumes/DATA32...', 31, Array)
+#1 /Volumes/DATA32/workspace/fantaparlamento/mainsite/application/classes/Controller/Classifiche.php(21): Controller_Classifiche->getPartitoAttivo()
+#2 /Volumes/DATA32/workspace/fantaparlamento/mainsite/system/classes/Kohana/Controller.php(84): Controller_Classifiche->action_index()
+#3 [internal function]: Kohana_Controller->execute()
+#4 /Volumes/DATA32/workspace/fantaparlamento/mainsite/system/classes/Kohana/Request/Client/Internal.php(97): ReflectionMethod->invoke(Object(Controller_Classifiche))
+#5 /Volumes/DATA32/workspace/fantaparlamento/mainsite/system/classes/Kohana/Request/Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#6 /Volumes/DATA32/workspace/fantaparlamento/mainsite/system/classes/Kohana/Request.php(986): Kohana_Request_Client->execute(Object(Request))
+#7 /Volumes/DATA32/workspace/fantaparlamento/mainsite/index.php(118): Kohana_Request->execute()
+#8 {main} in /Volumes/DATA32/workspace/fantaparlamento/mainsite/application/classes/Controller/Classifiche.php:31
+2014-05-23 19:09:48 --- EMERGENCY: Kohana_Exception [ 0 ]: View variable is not set: partito ~ SYSPATH/classes/Kohana/View.php [ 171 ] in /Volumes/DATA32/workspace/fantaparlamento/mainsite/application/classes/Controller/Classifiche.php:22
+2014-05-23 19:09:48 --- DEBUG: #0 /Volumes/DATA32/workspace/fantaparlamento/mainsite/application/classes/Controller/Classifiche.php(22): Kohana_View->__get('partito')
+#1 /Volumes/DATA32/workspace/fantaparlamento/mainsite/system/classes/Kohana/Controller.php(84): Controller_Classifiche->action_index()
+#2 [internal function]: Kohana_Controller->execute()
+#3 /Volumes/DATA32/workspace/fantaparlamento/mainsite/system/classes/Kohana/Request/Client/Internal.php(97): ReflectionMethod->invoke(Object(Controller_Classifiche))
+#4 /Volumes/DATA32/workspace/fantaparlamento/mainsite/system/classes/Kohana/Request/Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#5 /Volumes/DATA32/workspace/fantaparlamento/mainsite/system/classes/Kohana/Request.php(986): Kohana_Request_Client->execute(Object(Request))
+#6 /Volumes/DATA32/workspace/fantaparlamento/mainsite/index.php(118): Kohana_Request->execute()
+#7 {main} in /Volumes/DATA32/workspace/fantaparlamento/mainsite/application/classes/Controller/Classifiche.php:22
+2014-05-23 22:34:53 --- EMERGENCY: ErrorException [ 2 ]: include() [function.include]: Filename cannot be empty ~ APPPATH/views/intro.php [ 193 ] in /Volumes/DATA32/workspace/fantaparlamento/mainsite/application/views/intro.php:193
+2014-05-23 22:34:53 --- DEBUG: #0 /Volumes/DATA32/workspace/fantaparlamento/mainsite/application/views/intro.php(193): Kohana_Core::error_handler(2, 'include() [<a h...', '/Volumes/DATA32...', 193, Array)
+#1 /Volumes/DATA32/workspace/fantaparlamento/mainsite/application/views/intro.php(193): include()
+#2 /Volumes/DATA32/workspace/fantaparlamento/mainsite/system/classes/Kohana/View.php(61): include('/Volumes/DATA32...')
+#3 /Volumes/DATA32/workspace/fantaparlamento/mainsite/system/classes/Kohana/View.php(348): Kohana_View::capture('/Volumes/DATA32...', Array)
+#4 /Volumes/DATA32/workspace/fantaparlamento/mainsite/system/classes/Kohana/Controller/Template.php(44): Kohana_View->render()
+#5 /Volumes/DATA32/workspace/fantaparlamento/mainsite/system/classes/Kohana/Controller.php(87): Kohana_Controller_Template->after()
+#6 [internal function]: Kohana_Controller->execute()
+#7 /Volumes/DATA32/workspace/fantaparlamento/mainsite/system/classes/Kohana/Request/Client/Internal.php(97): ReflectionMethod->invoke(Object(Controller_Intro))
+#8 /Volumes/DATA32/workspace/fantaparlamento/mainsite/system/classes/Kohana/Request/Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#9 /Volumes/DATA32/workspace/fantaparlamento/mainsite/system/classes/Kohana/Request.php(986): Kohana_Request_Client->execute(Object(Request))
+#10 /Volumes/DATA32/workspace/fantaparlamento/mainsite/index.php(118): Kohana_Request->execute()
+#11 {main} in /Volumes/DATA32/workspace/fantaparlamento/mainsite/application/views/intro.php:193
+2014-05-23 22:41:46 --- EMERGENCY: ErrorException [ 2 ]: include() [function.include]: Filename cannot be empty ~ APPPATH/views/login.php [ 72 ] in /Volumes/DATA32/workspace/fantaparlamento/mainsite/application/views/login.php:72
+2014-05-23 22:41:46 --- DEBUG: #0 /Volumes/DATA32/workspace/fantaparlamento/mainsite/application/views/login.php(72): Kohana_Core::error_handler(2, 'include() [<a h...', '/Volumes/DATA32...', 72, Array)
+#1 /Volumes/DATA32/workspace/fantaparlamento/mainsite/application/views/login.php(72): include()
+#2 /Volumes/DATA32/workspace/fantaparlamento/mainsite/system/classes/Kohana/View.php(61): include('/Volumes/DATA32...')
+#3 /Volumes/DATA32/workspace/fantaparlamento/mainsite/system/classes/Kohana/View.php(348): Kohana_View::capture('/Volumes/DATA32...', Array)
+#4 /Volumes/DATA32/workspace/fantaparlamento/mainsite/system/classes/Kohana/Controller/Template.php(44): Kohana_View->render()
+#5 /Volumes/DATA32/workspace/fantaparlamento/mainsite/system/classes/Kohana/Controller.php(87): Kohana_Controller_Template->after()
+#6 [internal function]: Kohana_Controller->execute()
+#7 /Volumes/DATA32/workspace/fantaparlamento/mainsite/system/classes/Kohana/Request/Client/Internal.php(97): ReflectionMethod->invoke(Object(Controller_Login))
+#8 /Volumes/DATA32/workspace/fantaparlamento/mainsite/system/classes/Kohana/Request/Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#9 /Volumes/DATA32/workspace/fantaparlamento/mainsite/system/classes/Kohana/Request.php(986): Kohana_Request_Client->execute(Object(Request))
+#10 /Volumes/DATA32/workspace/fantaparlamento/mainsite/index.php(118): Kohana_Request->execute()
+#11 {main} in /Volumes/DATA32/workspace/fantaparlamento/mainsite/application/views/login.php:72
+2014-05-23 22:57:02 --- EMERGENCY: Database_Exception [ 1146 ]: Table 'fantaparlamento.fantasessione' doesn't exist [ SHOW FULL COLUMNS FROM `fantasessione` ] ~ MODPATH/database/classes/Kohana/Database/MySQL.php [ 194 ] in /Volumes/DATA32/workspace/fantaparlamento/mainsite/modules/database/classes/Kohana/Database/MySQL.php:359
+2014-05-23 22:57:02 --- DEBUG: #0 /Volumes/DATA32/workspace/fantaparlamento/mainsite/modules/database/classes/Kohana/Database/MySQL.php(359): Kohana_Database_MySQL->query(1, 'SHOW FULL COLUM...', false)
+#1 /Volumes/DATA32/workspace/fantaparlamento/mainsite/modules/orm/classes/Kohana/ORM.php(1668): Kohana_Database_MySQL->list_columns('fantasessione')
+#2 /Volumes/DATA32/workspace/fantaparlamento/mainsite/modules/orm/classes/Kohana/ORM.php(444): Kohana_ORM->list_columns()
+#3 /Volumes/DATA32/workspace/fantaparlamento/mainsite/modules/orm/classes/Kohana/ORM.php(389): Kohana_ORM->reload_columns()
+#4 /Volumes/DATA32/workspace/fantaparlamento/mainsite/modules/orm/classes/Kohana/ORM.php(254): Kohana_ORM->_initialize()
+#5 /Volumes/DATA32/workspace/fantaparlamento/mainsite/modules/orm/classes/Kohana/ORM.php(46): Kohana_ORM->__construct(NULL)
+#6 /Volumes/DATA32/workspace/fantaparlamento/mainsite/modules/orm/classes/Kohana/ORM.php(1689): Kohana_ORM::factory('FantaSessione')
+#7 /Volumes/DATA32/workspace/fantaparlamento/mainsite/modules/orm/classes/Kohana/ORM.php(629): Kohana_ORM->_related('sessione')
+#8 /Volumes/DATA32/workspace/fantaparlamento/mainsite/modules/orm/classes/Kohana/ORM.php(603): Kohana_ORM->get('sessione')
+#9 /Volumes/DATA32/workspace/fantaparlamento/mainsite/application/classes/Utils/ORMDB/FantaBusinessReadFacadeImpl.php(41): Kohana_ORM->__get('sessione')
+#10 /Volumes/DATA32/workspace/fantaparlamento/mainsite/application/classes/Controller/Classifiche.php(19): Utils_ORMDB_FantaBusinessReadFacadeImpl->selezionaFantaPartiti(NULL)
+#11 /Volumes/DATA32/workspace/fantaparlamento/mainsite/system/classes/Kohana/Controller.php(84): Controller_Classifiche->action_index()
+#12 [internal function]: Kohana_Controller->execute()
+#13 /Volumes/DATA32/workspace/fantaparlamento/mainsite/system/classes/Kohana/Request/Client/Internal.php(97): ReflectionMethod->invoke(Object(Controller_Login))
+#14 /Volumes/DATA32/workspace/fantaparlamento/mainsite/system/classes/Kohana/Request/Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#15 /Volumes/DATA32/workspace/fantaparlamento/mainsite/system/classes/Kohana/Request.php(986): Kohana_Request_Client->execute(Object(Request))
+#16 /Volumes/DATA32/workspace/fantaparlamento/mainsite/index.php(118): Kohana_Request->execute()
+#17 {main} in /Volumes/DATA32/workspace/fantaparlamento/mainsite/modules/database/classes/Kohana/Database/MySQL.php:359
+2014-05-23 22:57:53 --- EMERGENCY: ErrorException [ 8 ]: Undefined offset: 0 ~ APPPATH/classes/Controller/Classifiche.php [ 33 ] in /Volumes/DATA32/workspace/fantaparlamento/mainsite/application/classes/Controller/Classifiche.php:33
+2014-05-23 22:57:53 --- DEBUG: #0 /Volumes/DATA32/workspace/fantaparlamento/mainsite/application/classes/Controller/Classifiche.php(33): Kohana_Core::error_handler(8, 'Undefined offse...', '/Volumes/DATA32...', 33, Array)
+#1 /Volumes/DATA32/workspace/fantaparlamento/mainsite/application/classes/Controller/Classifiche.php(21): Controller_Classifiche->getPartitoAttivo()
+#2 /Volumes/DATA32/workspace/fantaparlamento/mainsite/system/classes/Kohana/Controller.php(84): Controller_Classifiche->action_index()
+#3 [internal function]: Kohana_Controller->execute()
+#4 /Volumes/DATA32/workspace/fantaparlamento/mainsite/system/classes/Kohana/Request/Client/Internal.php(97): ReflectionMethod->invoke(Object(Controller_Login))
+#5 /Volumes/DATA32/workspace/fantaparlamento/mainsite/system/classes/Kohana/Request/Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#6 /Volumes/DATA32/workspace/fantaparlamento/mainsite/system/classes/Kohana/Request.php(986): Kohana_Request_Client->execute(Object(Request))
+#7 /Volumes/DATA32/workspace/fantaparlamento/mainsite/index.php(118): Kohana_Request->execute()
+#8 {main} in /Volumes/DATA32/workspace/fantaparlamento/mainsite/application/classes/Controller/Classifiche.php:33
+2014-05-23 23:05:47 --- EMERGENCY: ErrorException [ 8 ]: Undefined index: id ~ APPPATH/views/_table_deputati.php [ 18 ] in /Volumes/DATA32/workspace/fantaparlamento/mainsite/application/views/_table_deputati.php:18
+2014-05-23 23:05:47 --- DEBUG: #0 /Volumes/DATA32/workspace/fantaparlamento/mainsite/application/views/_table_deputati.php(18): Kohana_Core::error_handler(8, 'Undefined index...', '/Volumes/DATA32...', 18, Array)
+#1 /Volumes/DATA32/workspace/fantaparlamento/mainsite/system/classes/Kohana/View.php(61): include('/Volumes/DATA32...')
+#2 /Volumes/DATA32/workspace/fantaparlamento/mainsite/system/classes/Kohana/View.php(348): Kohana_View::capture('/Volumes/DATA32...', Array)
+#3 /Volumes/DATA32/workspace/fantaparlamento/mainsite/application/views/classifiche.php(60): Kohana_View->render()
+#4 /Volumes/DATA32/workspace/fantaparlamento/mainsite/system/classes/Kohana/View.php(61): include('/Volumes/DATA32...')
+#5 /Volumes/DATA32/workspace/fantaparlamento/mainsite/system/classes/Kohana/View.php(348): Kohana_View::capture('/Volumes/DATA32...', Array)
+#6 /Volumes/DATA32/workspace/fantaparlamento/mainsite/system/classes/Kohana/Controller/Template.php(44): Kohana_View->render()
+#7 /Volumes/DATA32/workspace/fantaparlamento/mainsite/system/classes/Kohana/Controller.php(87): Kohana_Controller_Template->after()
+#8 [internal function]: Kohana_Controller->execute()
+#9 /Volumes/DATA32/workspace/fantaparlamento/mainsite/system/classes/Kohana/Request/Client/Internal.php(97): ReflectionMethod->invoke(Object(Controller_Classifiche))
+#10 /Volumes/DATA32/workspace/fantaparlamento/mainsite/system/classes/Kohana/Request/Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#11 /Volumes/DATA32/workspace/fantaparlamento/mainsite/system/classes/Kohana/Request.php(986): Kohana_Request_Client->execute(Object(Request))
+#12 /Volumes/DATA32/workspace/fantaparlamento/mainsite/index.php(118): Kohana_Request->execute()
+#13 {main} in /Volumes/DATA32/workspace/fantaparlamento/mainsite/application/views/_table_deputati.php:18
+2014-05-23 23:17:51 --- EMERGENCY: ErrorException [ 8 ]: Undefined variable: logged_in ~ APPPATH/views/login.php [ 40 ] in /Volumes/DATA32/workspace/fantaparlamento/mainsite/application/views/login.php:40
+2014-05-23 23:17:51 --- DEBUG: #0 /Volumes/DATA32/workspace/fantaparlamento/mainsite/application/views/login.php(40): Kohana_Core::error_handler(8, 'Undefined varia...', '/Volumes/DATA32...', 40, Array)
+#1 /Volumes/DATA32/workspace/fantaparlamento/mainsite/system/classes/Kohana/View.php(61): include('/Volumes/DATA32...')
+#2 /Volumes/DATA32/workspace/fantaparlamento/mainsite/system/classes/Kohana/View.php(348): Kohana_View::capture('/Volumes/DATA32...', Array)
+#3 /Volumes/DATA32/workspace/fantaparlamento/mainsite/system/classes/Kohana/Controller/Template.php(44): Kohana_View->render()
+#4 /Volumes/DATA32/workspace/fantaparlamento/mainsite/system/classes/Kohana/Controller.php(87): Kohana_Controller_Template->after()
+#5 [internal function]: Kohana_Controller->execute()
+#6 /Volumes/DATA32/workspace/fantaparlamento/mainsite/system/classes/Kohana/Request/Client/Internal.php(97): ReflectionMethod->invoke(Object(Controller_Login))
+#7 /Volumes/DATA32/workspace/fantaparlamento/mainsite/system/classes/Kohana/Request/Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#8 /Volumes/DATA32/workspace/fantaparlamento/mainsite/system/classes/Kohana/Request.php(986): Kohana_Request_Client->execute(Object(Request))
+#9 /Volumes/DATA32/workspace/fantaparlamento/mainsite/index.php(118): Kohana_Request->execute()
+#10 {main} in /Volumes/DATA32/workspace/fantaparlamento/mainsite/application/views/login.php:40
+2014-05-23 23:18:55 --- EMERGENCY: ErrorException [ 8 ]: Undefined variable: logged_in ~ APPPATH/views/login.php [ 40 ] in /Volumes/DATA32/workspace/fantaparlamento/mainsite/application/views/login.php:40
+2014-05-23 23:18:55 --- DEBUG: #0 /Volumes/DATA32/workspace/fantaparlamento/mainsite/application/views/login.php(40): Kohana_Core::error_handler(8, 'Undefined varia...', '/Volumes/DATA32...', 40, Array)
+#1 /Volumes/DATA32/workspace/fantaparlamento/mainsite/system/classes/Kohana/View.php(61): include('/Volumes/DATA32...')
+#2 /Volumes/DATA32/workspace/fantaparlamento/mainsite/system/classes/Kohana/View.php(348): Kohana_View::capture('/Volumes/DATA32...', Array)
+#3 /Volumes/DATA32/workspace/fantaparlamento/mainsite/system/classes/Kohana/Controller/Template.php(44): Kohana_View->render()
+#4 /Volumes/DATA32/workspace/fantaparlamento/mainsite/system/classes/Kohana/Controller.php(87): Kohana_Controller_Template->after()
+#5 [internal function]: Kohana_Controller->execute()
+#6 /Volumes/DATA32/workspace/fantaparlamento/mainsite/system/classes/Kohana/Request/Client/Internal.php(97): ReflectionMethod->invoke(Object(Controller_Login))
+#7 /Volumes/DATA32/workspace/fantaparlamento/mainsite/system/classes/Kohana/Request/Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#8 /Volumes/DATA32/workspace/fantaparlamento/mainsite/system/classes/Kohana/Request.php(986): Kohana_Request_Client->execute(Object(Request))
+#9 /Volumes/DATA32/workspace/fantaparlamento/mainsite/index.php(118): Kohana_Request->execute()
+#10 {main} in /Volumes/DATA32/workspace/fantaparlamento/mainsite/application/views/login.php:40
